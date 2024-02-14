@@ -1,0 +1,59 @@
+html, body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.main-cont{
+    margin-top: 4rem ;
+    text-align: center;
+    align-items: center;
+}
+
+.foot{
+  width: 100%;
+  text-align: center;
+  padding-top: 3rem;
+  margin: 1rem;
+  font-size: 20px;
+}
+
+.cd{
+    text-align: center;
+    border: 0.1px solid black;
+    box-shadow: 0 0 10px rgba(8, 7, 16, 0.1);
+    transition: box-shadow 0.3s ease-in;
+    margin: 1rem;
+}
+
+.cd:hover{
+    border: none;
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+}
+
+.brandcards{
+    margin-top: 5rem;
+}
+
+.cartTable{
+  margin-top: 7rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: center;
+}
+
+.slides{
+  width: 90%;
+}
+
+@media print{
+  .btn{
+    display: none;
+  }
+  .foot{
+    display: none;
+  }
+}
+
+.btc{
+  width: 70%;
+}
