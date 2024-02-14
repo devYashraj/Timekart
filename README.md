@@ -15,8 +15,8 @@
         </li>
         <li><a href="#license1">License</a></li>
     </ul>
-    <h2>Installation:</h2>
-    <div id="installation1">
+    <h2 id="installation1">Installation:</h2>
+    <div>
         <h3>1. Download and Install XAMPP:</h3>
         <p>If you don't have XAMPP installed, <a href="https://www.apachefriends.org/download.html">download and install it from the official website</a>.</p>
     </div>
