@@ -1,12 +1,8 @@
 <body>
     <h1>Timekart | Watch shopping web portal</h1>
-    <h2>Problem Statement:</h2>
-    <p>Create a full stack web application with (HTML, CSS, JS) & (PHP + MySQL)</p>
-    <h2>Description:</h2>
     <p>Timekart is developed to demonstrate the functioning of a shopping website. It allows users to create an account, navigate the products (watches), add them to the cart, and finally make a purchase. The site then sends this purchase request to the admin, where they can view the requested order and also perform other actions to maintain the site.</p>
     <h2>Table of Contents:</h2>
     <ul>
-        <li><a href="#installation1">Installation</a></li>
         <li><a href="#usage1">Usage</a>
             <ul>
                 <li><a href="#customer1">Customer</a></li>
@@ -15,48 +11,6 @@
         </li>
         <li><a href="#license1">License</a></li>
     </ul>
-    <h2 id="installation1">Installation:</h2>
-    <div>
-        <h3>1. Download and Install XAMPP:</h3>
-        <p>If you don't have XAMPP installed, <a href="https://www.apachefriends.org/download.html">download and install it from the official website</a>.</p>
-    </div>
-    <div>
-        <h3>2. Clone the Repository:</h3>
-        <p>Clone this repository to your local machine using the following command:</p>
-        <code>git clone https://github.com/devYashraj/Timekart.git</code>
-    </div>
-    <div>
-        <h3>3. Move Files to htdocs:</h3>
-        <p>Copy all the project files, including the database folder, and paste them into the htdocs folder of your XAMPP installation. This is typically located in the XAMPP installation directory (e.g. <code>C:\xampp\htdocs\</code> )</p>
-    </div>
-    <div>
-        <h3>4. Import the Database:</h3>
-        <ol>
-            <li>Open phpMyAdmin by navigating to <a href="http://localhost/phpmyadmin">http://localhost/phpmyadmin</a> in your web browser.</li>
-            <li>Create a new database for your project.</li>
-            <li>Select the newly created database and choose the "Import" tab.</li>
-            <li>Upload the .sql file from the database folder and execute the import.</li>
-        </ol>
-    </div>
-    <div>
-        <h3>5. Access the Application:</h3>
-        <ol>
-            <li>Open your web browser and navigate to <a href="http://localhost/timekart/login.php">http://localhost/timekart/login.php</a>.</li>
-            <li>Login Credentials:</li>
-            <ul>
-                <li><strong>Admin:</strong></li>
-                <ul>
-                    <li>Username: admin123</li>
-                    <li>Password: admin123</li>
-                </ul>
-                <li><strong>Customer:</strong> Create a new account if required.</li>
-            </ul>
-        </ol>
-    </div>
-    <div>
-        <h3>6. Start Using the Application:</h3>
-        <p>You should now be able to access and use the application.</p>
-    </div>
     <h2 id="usage1">Usage:</h2>
     <img src="screenshots/homepage.png" alt="Homepage">
     <p>This is the first page where you can choose whether to login as admin or customer.</p>
